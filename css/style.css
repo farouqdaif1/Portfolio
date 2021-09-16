@@ -19,10 +19,10 @@ html {
   height: 590px;
   width: 375px;
   padding: 120px 24px;
-  background: #1C1A19;
+  background: #1c1a19;
   background-image: url(/image/Group.png);
-  background-repeat:no-repeat ;
-  background-position:100% 117%;
+  background-repeat: no-repeat;
+  background-position: 100% 117%;
 }
 
 #bar-tools {
@@ -54,9 +54,7 @@ html {
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-
 }
-
 
 .primary-text {
   height: 124px;
