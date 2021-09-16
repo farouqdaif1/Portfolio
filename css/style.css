@@ -12,9 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   height: 100%;
 }
+
 .headline {
   display: flex;
   flex-direction: column;
