@@ -7,6 +7,11 @@ You don't need to implement any functionality that requires JavaScript, like ope
 
 ![screenshot](./app_screenshot.png)
 
+To get a local copy up and running follow these simple example steps.
+Open the terminal
+Run git clone https://github.com/farouqdaif1/Portfolio.git
+Then run git checkout Add-toolbar-and-headline
+Now you can open the index.html file in your browser
 
 
 ## Built With
