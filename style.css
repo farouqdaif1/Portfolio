@@ -12,9 +12,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
-  height: 100%;
-}
 .headline {
   display: flex;
   flex-direction: column;
@@ -23,7 +20,7 @@ body{
   width: 375px;
   padding: 120px 24px;
   background: #1c1a19;
-  background-image: url("../image/Group.png");
+  background-image: url("./image/Group.png");
   background-repeat: no-repeat;
   background-position: 100% 117%;
 }
