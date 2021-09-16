@@ -8,7 +8,6 @@ You don't need to implement any functionality that requires JavaScript, like ope
 ![screenshot](./app_screenshot.png)
 
 
-Additional description about the project and its features.
 
 ## Built With
 
