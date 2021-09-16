@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Poppins&family=Roboto:ital,wght@1,700&display=swap');
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 590px;
+  width: 375px;
+  padding: 120px 24px;
+  background: #1c1a19;
+  background-image: url("../image/Group.png");
+  background-repeat: no-repeat;
+  background-position: 100% 117%;
+}
+
+#bar-tools {
+  display: flex;
+  height: 48px;
+  width: 375px;
+  border-radius: 0;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #fff;
+  background: #3c3a39;
+}
+
+#name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+}
+
+#burger {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+}
+
+.primary-text {
+  height: 124px;
+  width: 327px;
+  left: 24px;
+  border-radius: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: left;
+}
+
+.primary-text h1 {
+  font-family: 'Crete Round', serif;
+  color: #ff6b00;
+}
+
+.suporting-text {
+  margin: 12px 0;
+  height: 27px;
+  width: 327px;
+  left: 24px;
+  border-radius: 0;
+}
+
+.suporting-text p {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.discrption {
+  height: 123px;
+  width: 327px;
+  left: 24px;
+  top: 295px;
+  border-radius: 0;
+  margin: 12px 0;
+}
+
+.discrption p {
+  font-family: 'Poppins', sans-serif;
+  color: #f4f5f7;
+  font-size: 15.75px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  height: 40px;
+  width: 200px;
+  left: 24px;
+  top: 430px;
+  border-radius: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.social-media li {
+  text-decoration: none;
+  height: 40px;
+  width: 40px;
+  left: 160px;
+  top: 0;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 0 0;
+}
