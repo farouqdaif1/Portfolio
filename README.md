@@ -9,9 +9,9 @@ You don't need to implement any functionality that requires JavaScript, like ope
 
 ## To get a local copy up and running follow these simple example steps.
 Open the terminal
-Run git clone https://github.com/farouqdaif1/Portfolio.git
-Then run git checkout Add-toolbar-and-headline
-Now you can open the index.html file in your browser
+1.Run git clone https://github.com/farouqdaif1/Portfolio.git
+2.Then run git checkout Add-toolbar-and-headline
+3.Now you can open the index.html file in your browser
 
 
 ## Built With
