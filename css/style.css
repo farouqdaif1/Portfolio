@@ -203,7 +203,7 @@ body {
   height: 40px;
   width: 297px;
   border-radius: 0;
-  margin-bottom: 12px;
+  margin-bottom: 22px;
   color: #091e42;
   display: flex;
   justify-content: space-between;
@@ -238,15 +238,26 @@ body {
 }
 
 .work-cards {
+  height: 386px;
+  width: 327px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.work-cards img {
+  position: absolute;
+  z-index: 1;
+  width: 327px;
+  height: 386px;
+}
+
+.work-cards .content {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  height: 386px;
-  width: 327px;
-  margin-bottom: 24px;
-  background-image: url("/image/background.png");
-  color: #fff;
+  position: absolute;
+  z-index: 5;
 }
 
 .title-project {
@@ -258,7 +269,7 @@ body {
   letter-spacing: 0;
   text-align: left;
   font-family: 'Crete Round', serif;
-  margin-top: 80px;
+  margin-top: 84px;
   margin-bottom: 12px;
 }
 
