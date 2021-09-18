@@ -305,7 +305,7 @@ body {
   background: #1c1a19;
   border-radius: 0;
   padding: 120px 24px;
-  background-image: url("./image/Group1.png");
+  background-image: url("/image/Group1.png");
   background-repeat: no-repeat;
   background-position: 100% 17%;
 }
