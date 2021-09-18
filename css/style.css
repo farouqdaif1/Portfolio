@@ -234,6 +234,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
+  text-decoration: none;
 }
 
 .work-cards {
@@ -293,6 +294,8 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
+  padding: 12px;
+  text-decoration: none;
 }
 
 .about-me {
@@ -363,6 +366,7 @@ body {
   border: none;
   background: #ff6b00;
   color: #ffff;
+  text-decoration: none;
 }
 
 .line1 {
