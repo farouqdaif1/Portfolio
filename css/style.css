@@ -491,15 +491,15 @@ body {
 }
 
 .submit:hover {
-  border: 1px solid #F55800;
-  background-color: #FFF5E1;
-  color: #F55800;
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
   transition: 0.5s;
 }
 
 .submit:active {
-  background-color: #E05304;
-  color: #F4F1F0;
+  background-color: #e05304;
+  color: #f4f1f0;
 }
 
 .icons {
