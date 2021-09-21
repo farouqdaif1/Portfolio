@@ -433,11 +433,15 @@ body {
 
 .contact-form {
   background-color: #fff;
+  display: grid;
+  grid-template-columns: 100%;
 }
 
 .form {
   margin-top: 120px;
   padding: 0 24px;
+  display: flex;
+  flex-direction: column;
 }
 
 .pargragh-form {
@@ -451,8 +455,27 @@ body {
 
 .name-email {
   font-family: 'Inter', sans-serif;
+  margin-bottom: 24px;
+  border: none;
+  border-bottom: 1px solid  #dbd8d7;
 }
 
 .text {
   font-family: 'Inter', sans-serif;
+  margin-bottom: 24px;
+}
+
+.submit {
+  height: 48px;
+  width: 131px;
+  padding: 12px;
+  background: #ff6b00;
+  color: #fff;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
