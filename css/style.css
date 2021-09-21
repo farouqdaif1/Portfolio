@@ -490,9 +490,22 @@ body {
   align-self: center;
 }
 
+.submit:hover {
+  border: 1px solid #F55800;
+  background-color: #FFF5E1;
+  color: #F55800;
+  transition: 0.5s;
+}
+
+.submit:active {
+  background-color: #E05304;
+  color: #F4F1F0;
+}
+
 .icons {
   margin-top: 124px;
   border-top: 1px solid #dfe1e6;
+  padding: 15px;
 }
 
 .social-icons {
