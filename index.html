@@ -249,14 +249,14 @@
               so if you'd like to chat please get in</h4>
 
           </div>
-          <form class="form">           
-            <input type="text" placeholder="Full name" required maxlength="30" class="name-email"> 
-            <input type="email" placeholder="Email address" required maxlength="30" class="name-email">
-            <textarea rows="5" cols="10" required maxlength = "500" class="text">Enter text here </textarea>
+          <form class="form" action="https://formspree.io/f/mgerdpob" method="POST">           
+            <input type="text" placeholder="Full name" required maxlength="30" class="name-email" name="name"> 
+            <input type="email" placeholder="Email address" required maxlength="30" class="name-email" name="email">
+            <textarea rows="5" cols="10" required maxlength = "500" class="text"  name="textarea">Enter text here </textarea>
             <input type="submit" value="Get in touch" class="submit">
           </form>
           <div class="icons">
-            <ul class="social-icons">
+            <ul class="social-icons"> 
               <li>
                 <a>
                   <i class="fab fa-github"></i>
