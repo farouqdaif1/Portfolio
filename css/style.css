@@ -237,6 +237,18 @@ body {
   text-decoration: none;
 }
 
+.see:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+  transition: 0.5s;
+}
+
+.see :active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
 .work-cards {
   height: 386px;
   width: 327px;
@@ -309,6 +321,18 @@ body {
   text-decoration: none;
 }
 
+.see-pro:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+  transition: 0.5s;
+}
+
+.see-pro:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
 .about-me {
   display: grid;
   grid-template-columns: 100%;
@@ -378,6 +402,18 @@ body {
   background: #ff6b00;
   color: #ffff;
   text-decoration: none;
+}
+
+.see1:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+  transition: 0.5s;
+}
+
+.see1:active {
+  background-color: #e05304;
+  color: #f4f1f0;
 }
 
 .line1 {
