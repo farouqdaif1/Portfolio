@@ -489,3 +489,20 @@ body {
   text-align: center;
   align-self: center;
 }
+
+.icons {
+  margin-top: 124px;
+  border-top: 1px solid #dfe1e6;
+}
+
+.social-icons {
+  color: #505f79;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social-icons li {
+  padding: 8px;
+}
