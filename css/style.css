@@ -430,7 +430,29 @@ body {
   text-align: center;
   margin-bottom: 32px;
 }
-.contact-form{
-  background-color:#fff ;
-  
+
+.contact-form {
+  background-color: #fff;
+}
+
+.form {
+  margin-top: 120px;
+  padding: 0 24px;
+}
+
+.pargragh-form {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-bottom: 70px;
+}
+
+.name-email {
+  font-family: 'Inter', sans-serif;
+}
+
+.text {
+  font-family: 'Inter', sans-serif;
 }
