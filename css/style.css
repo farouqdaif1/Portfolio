@@ -755,10 +755,10 @@ body {
   .work-cards:hover {
     display: flex;
     flex-direction: column-reverse;
-    background-image: url("/image/place.png");
+    background-image: url("/place.png");
     background-repeat: no-repeat;
   }
-
+git 
   .work-cards:hover .see-pro {
     display: block;
   }
