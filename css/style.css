@@ -758,6 +758,7 @@ body {
     background-image: url("../place.png");
     background-repeat: no-repeat;
   }
+
   .work-cards:hover .see-pro {
     display: block;
   }
