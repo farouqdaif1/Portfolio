@@ -557,7 +557,7 @@ body {
   padding: 8px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   #bar-tools {
     width: 100%;
     height: 72px;
@@ -720,6 +720,47 @@ body {
 
   .work-cards {
     margin-left: 24px;
+  }
+
+  .content {
+    margin-top: 50px;
+  }
+
+  .title-project,
+  .suporting-text,
+  .tags-tool {
+    margin-left: 8px;
+  }
+
+  .see-pro {
+    display: none;
+  }
+
+  .work-cards:hover .title-project {
+    display: none;
+  }
+
+  .work-cards:hover .suppot-project-text {
+    display: none;
+  }
+
+  .work-cards:hover .tags-tool {
+    display: none;
+  }
+
+  .work-cards:hover img {
+    display: none;
+  }
+
+  .work-cards:hover {
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url("/image/Img\ Placeholder1.png");
+    background-repeat: no-repeat;
+  }
+
+  .work-cards:hover .see-pro {
+    display: block;
   }
 
   .about-me {
