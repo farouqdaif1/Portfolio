@@ -778,7 +778,7 @@ body {
   .work-cards:hover {
     display: flex;
     flex-direction: column-reverse;
-    background-image: url("/image/Img\ Placeholder1.png");
+    background-image: url("../image/place.png");
     background-repeat: no-repeat;
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
