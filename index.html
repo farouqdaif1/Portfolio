@@ -16,7 +16,8 @@
 <!-- Font Awosome -->
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
-<body>
+<body class="parent">
+  <div class=" container">
   <header id="bar-tools">
     <div id="name">
       <a>Farouq Daif</a>
@@ -25,10 +26,19 @@
           <div id="burger">      
               <i class="fas fa-bars"></i>
           </div>
+          <div class="nav-ul">
+            <ul>
+              <li>Portoflio</li>
+              <li>About</li>
+              <li>Contact</li>
+              <li><i class="fas fa-envelope-square"></i></li> 
+            </ul>
+          </div>
+
     </nav>
 </header>
-    <main>
-      <div class="parent">
+    <main >
+      <div class="container1">
         <section class="headline">
           <div id="container">
           <div class="primary-text">
@@ -41,37 +51,38 @@
           <div class="discrption">
             <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
               don’t hestiate to contact me.</p>
+          
           </div>
-                <div class="unorder-list">
-                  <ul class="social-media">
-                    <li>
-                      <a>
-                        <i class="fab fa-github"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a>
-                        <i class="fab fa-linkedin-in"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a>
-                        <i class="fab fa-angellist"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a>
-                        <i class="fab fa-twitter"></i>   
-                      </a>
-                    </li>
-                    <li>
-                      <a>
-                        <i class="fab fa-medium-m"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>      
-          </div>
+        </div>
+        <div class="unorder-list">
+          <ul class="social-media">
+            <li>
+              <a>
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a>
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a>
+                <i class="fab fa-angellist"></i>
+              </a>
+            </li>
+            <li>
+              <a>
+                <i class="fab fa-twitter"></i>   
+              </a>
+            </li>
+            <li>
+              <a>
+                <i class="fab fa-medium-m"></i>
+              </a>
+            </li>
+          </ul>
+        </div>      
         </section>
         <section class="recent-works">
           <div class="box-title">
@@ -80,6 +91,7 @@
           </div>
             <div class="main-work">
               <img src="image/Img-Placeholder.png" alt="ballet girl in orange farme">
+              <div class="div">
               <div class="title-post">
                   <h3>Multi-Post Stories</h3>
               </div>
@@ -96,7 +108,8 @@
                 <li>Ruby</li>
               </ul>
           <a class="see" href="index.html">See Project</a>
-            </div>
+        </div>
+        </div>
         
             <div class="work">
               <div class="work-cards">
@@ -216,14 +229,14 @@
           </div>
           <div class="skill">
             <ul class="skills">
-            <li class="subskill"><img src="image/Rectangle-55.png" alt="dot">Language
+            <li class="subskill"><div><img src="image/Rectangle-55.png" alt="dot">Language</div>
               <ul class="subclass">
                 <li>Javascript</li>
                 <li>Ruby</li>
                 <li>Html</li>
                 <li>Css</li>
               </ul> </li>
-              <li class="subskill"><img src="image/Rectangle-56.png" alt="dot">Frameworks
+              <li class="subskill"><div><img src="image/Rectangle-56.png" alt="dot">Frameworks</div>
                   <ul class="subclass">
                     <li>Bootstrap</li>
                     <li>Ruby on Rails</li>
@@ -231,7 +244,7 @@
                     <li>CapyBara</li>
                     <li>Selenium</li>
                   </ul></li>
-              <li class="subskill"><img src="image/Rectangle-57.png" alt="dot">Skills
+              <li class="subskill"><div><img src="image/Rectangle-57.png" alt="dot">Skills</div>
                   <ul class="subclass">
                     <li>Codekit</li>
                     <li>Github</li>
@@ -244,17 +257,22 @@
           </div>  
         </section>
         <section  class="contact-form">
+          <div class="form-container">
           <div class="pargragh-form">
             <h4 class="form-title">I'm always interested in hearing about new projects, 
               so if you'd like to chat please get in</h4>
 
           </div>
-          <form class="form" action="https://formspree.io/f/mgerdpob" method="POST">           
-            <input type="text" placeholder="Full name" required maxlength="30" class="name-email" name="name"> 
-            <input type="email" placeholder="Email address" required maxlength="30" class="name-email" name="email">
+          <form class="form" action="https://formspree.io/f/mgerdpob" method="POST">
+            <input type="text" placeholder="Full name" required maxlength="30" class="name-email" name="name" id="full-name" >         
+            <input type="text" placeholder="First name" required maxlength="30" class="name-email" name="name" id="first-name" > 
+            <input type="text" placeholder="Last name" required maxlength="30" class="name-email" name="name" id="last-name"> 
+
+            <input type="email" placeholder="Email address" required maxlength="30" class="name-email" name="email" id="email">
             <textarea rows="5" cols="10" required maxlength = "500" class="text"  name="textarea">Enter text here </textarea>
             <input type="submit" value="Get in touch" class="submit">
           </form>
+        </div>
           <div class="icons">
             <ul class="social-icons"> 
               <li>
@@ -288,7 +306,7 @@
 
     </div>
     </main>
-  
+  </div>
 </body>
 
 </html>
