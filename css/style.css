@@ -842,6 +842,10 @@ body {
     grid-template-columns: 50% 50%;
   }
 
+  .form:hover ::placeholder {
+    transform: translate(10px);
+  }
+
   .form-title {
     font-size: 29px;
   }
