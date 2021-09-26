@@ -792,7 +792,7 @@ body {
   }
 
   .about-me {
-    background-image: url("/image/illustration-about\ me.png");
+    background-image: url("../image/about-me.png");
     background-repeat: no-repeat;
     background-position: 100% 12%;
     padding: 142px 120px;
