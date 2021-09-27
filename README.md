@@ -13,14 +13,14 @@ You don't need to implement any functionality that requires JavaScript, like ope
 - Then run git checkout Add-toolbar-and-headline
 - Now you can open the index.html file in your browser
 
-## To see my protiflio
-click the link: https://farouqdaif1.github.io/Portfolio/
 
 ## Built With
 
 - Major languages:Html and CSS
 - Technologies used :GIT and GitHup 
 
+## To see the Project
+click the link: https://farouqdaif1.github.io/Portfolio/
 
 ## Authors
 
