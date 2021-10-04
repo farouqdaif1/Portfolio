@@ -717,6 +717,12 @@ nav .ul2 li a {
     text-align: center;
     color:#fff;
   }
+.nav-ul.open{
+  display: none;
+}
+.close.open {
+    display: none;
+}
 
   #container {
     display: flex;
