@@ -1,6 +1,5 @@
 const menu = document.querySelector('#burger');
 const close = document.querySelector('#close');
-const option = document.querySelector('.toul');
 function showMe() {
   document.querySelector('.nav-ul').classList.toggle('open');
   document.querySelector('#close').classList.toggle('open');
@@ -10,4 +9,3 @@ function showMe() {
 }
 menu.addEventListener('click', showMe);
 close.addEventListener('click', showMe);
-option.addEventListener('click', showMe);

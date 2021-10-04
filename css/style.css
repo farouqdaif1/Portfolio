@@ -685,8 +685,7 @@ nav .ul2 li a {
   display: flex;
 }
   .toul{
-    display: flex;
-    justify-content: flex-end;
+    display: block;
   }
 
   .toul .ul2 {
@@ -695,6 +694,7 @@ nav .ul2 li a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
   }
 
   nav .toul .ul2 li {
@@ -717,10 +717,18 @@ nav .ul2 li a {
     text-align: center;
     color:#fff;
   }
+  .nav-ul{
+    display: block;
+  }
 .nav-ul.open{
-  display: none;
+  display: flex;
+  background: transparent;
+  justify-content: center;
+    width:30%;
+    margin-left: 750px;
+   
 }
-.close.open {
+#close.open {
     display: none;
 }
 
