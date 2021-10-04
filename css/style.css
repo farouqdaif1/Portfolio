@@ -681,20 +681,41 @@ nav .ul2 li a {
     justify-content: center;
     align-items: center;
   }
-
-  .nav-ul {
+.nav-ul{
+  display: flex;
+}
+  .toul{
     display: flex;
     justify-content: flex-end;
   }
 
-  .nav-ul ul {
+  .toul .ul2 {
     list-style: none;
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
   }
 
-  nav .nav-ul ul li {
-    padding: 10px 12px;
+  nav .toul .ul2 li {
+    width: auto;
+    border-style: none;
+    padding: 0px 12px;
+  }
+  nav .toul .ul2 li i{
+    width: auto;
+    border-style: none;
+    padding: 12px;
+  }
+  nav .toul .ul2 li a{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#fff;
   }
 
   #container {
