@@ -681,10 +681,12 @@ nav .ul2 li a {
     justify-content: center;
     align-items: center;
   }
-.nav-ul{
-  display: flex;
-}
-  .toul{
+
+  .nav-ul {
+    display: flex;
+  }
+
+  .toul {
     display: block;
   }
 
@@ -694,43 +696,43 @@ nav .ul2 li a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
   }
 
   nav .toul .ul2 li {
     width: auto;
     border-style: none;
-    padding: 0px 12px;
+    padding: 0 12px;
   }
-  nav .toul .ul2 li i{
+
+  nav .toul .ul2 li i {
     width: auto;
     border-style: none;
     padding: 12px;
   }
-  nav .toul .ul2 li a{
+
+  nav .toul .ul2 li a {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
     line-height: 20px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
-    color:#fff;
+    color: #fff;
   }
-  .nav-ul{
-    display: block;
-  }
-.nav-ul.open{
-  display: flex;
-  background: transparent;
-  justify-content: center;
-    width:30%;
+
+
+  .nav-ul.open {
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    width: 30%;
     margin-left: 750px;
-   
-}
-#close.open {
+  }
+
+  #close.open {
     display: none;
-}
+  }
 
   #container {
     display: flex;
