@@ -69,10 +69,10 @@ nav .ul2 {
   background-color: #3c3a39;
 }
 
-#close.open {
+/* #close.open {
   display: block;
   margin-left: 300px;
-}
+} */
 
 #name {
   display: flex;
@@ -721,18 +721,6 @@ nav .ul2 li a {
     color: #fff;
   }
 
-  .nav-ul.open {
-    display: flex;
-    background: transparent;
-    justify-content: center;
-    width: 30%;
-    margin-left: 750px;
-  }
-
-  #close.open {
-    display: none;
-  }
-
   #container {
     display: flex;
     flex-direction: column;
@@ -983,4 +971,14 @@ nav .ul2 li a {
   .icons {
     margin: 0;
   }
+  .nav-ul.open {
+    display: flex;
+    color: #dfe1e6;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 72px;;
+    position: static;
+  } 
 }
