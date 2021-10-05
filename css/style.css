@@ -69,10 +69,15 @@ nav .ul2 {
   background-color: #3c3a39;
 }
 
-/* #close.open {
-  display: block;
+#close.open {
+  display: flex;
   margin-left: 300px;
-} */
+}
+
+.close-btn {
+  background-color: transparent;
+  margin-top: 20px;
+}
 
 #name {
   display: flex;
@@ -86,6 +91,15 @@ nav .ul2 {
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
+  color: white;
+}
+
+.bur-btn {
+  background-color: #3C3A39;
+}
+
+#bars {
+  color: white;
 }
 
 .bur-btn.hide {
@@ -588,7 +602,7 @@ nav .ul2 {
 
 nav .ul2 li {
   height: 56px;
-  width: 327px;
+  width: 100%;
   font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-style: normal;
