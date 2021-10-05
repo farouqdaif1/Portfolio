@@ -71,7 +71,8 @@ nav .ul2 {
 
 #close.open {
   display: flex;
-  margin-left: 300px;
+  justify-content: flex-end;
+  margin-right: 25px;
 }
 
 .close-btn {
@@ -95,7 +96,7 @@ nav .ul2 {
 }
 
 .bur-btn {
-  background-color: #3C3A39;
+  background-color: #3c3a39;
 }
 
 #bars {
@@ -615,20 +616,24 @@ nav .ul2 li {
 }
 
 nav .ul2 li a {
-  color: white;
+  color: #fff5e1;
   text-decoration: none;
 }
 
 .nav-ul.open {
   display: flex;
   flex-direction: column;
-  color: #dfe1e6;
   width: 100%;
   height: 100%;
   position: absolute;
   left: 0;
   top: 0;
   background: #3c3a39;
+  color: #fff5e1;
+}
+
+#ml.open {
+  display: none;
 }
 
 @media (min-width: 1000px) {
@@ -985,6 +990,7 @@ nav .ul2 li a {
   .icons {
     margin: 0;
   }
+
   .nav-ul.open {
     display: flex;
     color: #dfe1e6;
@@ -992,7 +998,16 @@ nav .ul2 li a {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 72px;;
+    height: 72px;
     position: static;
-  } 
+  }
+
+  #close.open {
+    display: none;
+    margin-left: 300px;
+  }
+
+  #ml.open {
+    display: block;
+  }
 }
