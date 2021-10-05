@@ -29,19 +29,28 @@
     <div id="name">
       <a>Farouq Daif</a>
     </div>
-    <nav >
-          <div id="burger">      
-              <i class="fas fa-bars"></i>
+    <nav  class="mob-nav" Id="nav-id">
+          <div  id="burger"   >      
+          <button type="button" class="bur-btn">
+            <i class="fas fa-bars" id="bars"></i>
+          </button>
           </div>
           <div class="nav-ul">
-            <ul>
-              <li>Portoflio</li>
-              <li>About</li>
-              <li>Contact</li>
-              <li><i class="fas fa-envelope-square"></i></li> 
+            <div id="close">      
+              <button type="button" class="close-btn">
+              <img src="image/close.png" alt="x"/>
+              </button>
+              </div>
+          <div class="toul">
+            <ul class="ul2" >
+              <li><a href="#work">Portoflio</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li id="ml"><i class="fas fa-envelope-square"></i></li> 
             </ul>
           </div>
-
+        </div>
+          
     </nav>
 </header>
     <main >
@@ -91,7 +100,7 @@
           </ul>
         </div>      
         </section>
-        <section class="recent-works">
+        <section class="recent-works" id="work">
           <div class="box-title">
             <h2 class="title">My Recent Work</h2>
             <div class="line"></div>
@@ -223,7 +232,7 @@
                   </div>
               </div>
             </section>
-        <section class="about-me">
+        <section class="about-me" id="about">
           <div class="pragh">
             <div class="primary-text1">
               <h2>About me</h2>
@@ -263,7 +272,7 @@
 
           </div>  
         </section>
-        <section  class="contact-form">
+        <section  class="contact-form" id="contact">
           <div class="form-container">
           <div class="pargragh-form">
             <h4 class="form-title">I'm always interested in hearing about new projects, 
@@ -273,7 +282,6 @@
             <input type="text" placeholder="Full name" required maxlength="30" class="name-email" name="name" id="full-name" >         
             <input type="text" placeholder="First name" required maxlength="30" class="name-email" name="name" id="first-name" > 
             <input type="text" placeholder="Last name" required maxlength="30" class="name-email" name="name" id="last-name"> 
-
             <input type="email" placeholder="Email address" required maxlength="30" class="name-email" name="email" id="email">
             <textarea rows="5" cols="10" required maxlength = "500" class="text"  name="textarea">Enter text here </textarea>
             <input type="submit" value="Get in touch" class="submit">
@@ -309,10 +317,10 @@
             </ul>
           </div>
         </section>
-
     </div>
     </main>
   </div>
+<script src="js/script.js"></script>
 </body>
 
 </html>

@@ -49,6 +49,37 @@ body {
   display: none;
 }
 
+nav .ul2 {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 15px;
+}
+
+#close {
+  display: none;
+  color: #ffff;
+  border-radius: 50%;
+  border-color: transparent;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #3c3a39;
+}
+
+#close.open {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px;
+}
+
+.close-btn {
+  background-color: transparent;
+  margin-top: 20px;
+}
+
 #name {
   display: flex;
   flex-direction: row;
@@ -61,6 +92,19 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
+  color: white;
+}
+
+.bur-btn {
+  background-color: #3c3a39;
+}
+
+#bars {
+  color: white;
+}
+
+.bur-btn.hide {
+  display: none;
 }
 
 .primary-text {
@@ -557,6 +601,41 @@ body {
   padding: 8px;
 }
 
+nav .ul2 li {
+  height: 56px;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  border-bottom: solid 1px #fff;
+  padding: 15px;
+}
+
+nav .ul2 li a {
+  color: #fff5e1;
+  text-decoration: none;
+}
+
+.nav-ul.open {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #3c3a39;
+  color: #fff5e1;
+}
+
+#ml.open {
+  display: none;
+}
+
 @media (min-width: 1000px) {
   #name {
     animation: mymove 1s;
@@ -624,17 +703,41 @@ body {
 
   .nav-ul {
     display: flex;
-    justify-content: flex-end;
   }
 
-  .nav-ul ul {
+  .toul {
+    display: block;
+  }
+
+  .toul .ul2 {
     list-style: none;
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
   }
 
-  nav .nav-ul ul li {
-    padding: 10px 12px;
+  nav .toul .ul2 li {
+    width: auto;
+    border-style: none;
+    padding: 0 12px;
+  }
+
+  nav .toul .ul2 li i {
+    width: auto;
+    border-style: none;
+    padding: 12px;
+  }
+
+  nav .toul .ul2 li a {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #fff;
   }
 
   #container {
@@ -886,5 +989,25 @@ body {
 
   .icons {
     margin: 0;
+  }
+
+  .nav-ul.open {
+    display: flex;
+    color: #dfe1e6;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 72px;
+    position: static;
+  }
+
+  #close.open {
+    display: none;
+    margin-left: 300px;
+  }
+
+  #ml.open {
+    display: block;
   }
 }
