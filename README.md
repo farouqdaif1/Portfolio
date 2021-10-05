@@ -16,7 +16,7 @@ You don't need to implement any functionality that requires JavaScript, like ope
 
 ## Built With
 
-- Major languages:Html and CSS
+- Major languages:Html , CSS and Js 
 - Technologies used :GIT and GitHup 
 
 ## To see the Project
@@ -40,7 +40,9 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+## 📝 License
 
+This project is [MIT](./MIT.md) licensed.
 
 
 
