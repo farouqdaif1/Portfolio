@@ -1010,4 +1010,44 @@ nav .ul2 li a {
   #ml.open {
     display: block;
   }
+  .modal{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    border: 1px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    z-index: 1000;
+    background-color: #ffff;
+    width :80%;
+    padding: 24px;
+}
+.modal-header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  color: #172B4D;
+  font-family: 'Crete Round', serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.modal-header .close-model{
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+}
 }
