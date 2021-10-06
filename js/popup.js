@@ -56,3 +56,17 @@ const data = {
     seeSource: 'https://www.google.com/',
   },
 };
+
+const projects = [
+  data.proj1, 
+  data.proj2,
+  data.proj3,
+  data.proj4,
+  data.proj5,
+  data.proj6
+];
+
+function popUp() {
+  const buttonIcon = document.querySelectorAll('.see');
+  buttonIcon.addEventListener('click', )
+}
