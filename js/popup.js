@@ -67,6 +67,5 @@ const projects = [
 ];
 
 function popUp() {
-  const buttonIcon = document.querySelectorAll('.see');
-  buttonIcon.addEventListener('click', )
+  modalDisplay 
 }
