@@ -56,16 +56,14 @@ const data = {
     seeSource: 'https://www.google.com/',
   },
 };
-
-const projects = [
-  data.proj1, 
-  data.proj2,
-  data.proj3,
-  data.proj4,
-  data.proj5,
-  data.proj6
-];
-
+const main = document.querySelector('#see-btn');
+const closeM = document.querySelector('#close-Model');
+const side = document.querySelectorAll('.see-pro');
 function popUp() {
-  modalDisplay 
+  document.querySelector('.modal').classList.toggle('active');
 }
+main.addEventListener('click', popUp);
+closeM.addEventListener('click', popUp);
+side.forEach((x) => {
+  x.addEventListener('click', popUp);
+});

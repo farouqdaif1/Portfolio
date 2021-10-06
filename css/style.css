@@ -1014,11 +1014,11 @@ nav .ul2 li a {
     position:fixed;
     top:50%;
     left:50%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%) scale(0);
+    -webkit-transform: translate(-50%,-50%) scale(0);
+    -moz-transform: translate(-50%,-50%) scale(0);
+    -ms-transform: translate(-50%,-50%) scale(0);
+    -o-transform: translate(-50%,-50%) scale(0);
     border: 1px solid black;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -1027,7 +1027,7 @@ nav .ul2 li a {
     -o-border-radius: 10px;
     z-index: 1000;
     background-color: #ffff;
-    width :80%;
+    width:80%;
     padding: 24px;
 }
 .modal-header{
@@ -1049,5 +1049,12 @@ nav .ul2 li a {
   border: none;
   background: none;
   outline: none;
+}
+.active{
+  transform: translate(-50%,-50%) scale(1);
+  -webkit-transform: translate(-50%,-50%) scale(1);
+  -moz-transform: translate(-50%,-50%) scale(1);
+  -ms-transform: translate(-50%,-50%) scale(1);
+  -o-transform: translate(-50%,-50%) scale(1);
 }
 }
