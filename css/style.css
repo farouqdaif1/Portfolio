@@ -387,7 +387,9 @@ nav .ul2 {
   height: 563px;
   width: 327px;
 }
-
+small{
+  color:red;
+}
 .primary-text1 {
   width: 100%;
   font-size: 58px;
@@ -1104,7 +1106,7 @@ nav .ul2 li a {
 
   .form {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
   }
 
   .form:hover ::placeholder {
@@ -1125,23 +1127,16 @@ nav .ul2 li a {
   }
 
   #full-name {
-    display: none;
-  }
-
-  #first-name {
     display: block;
-  }
-
-  #last-name {
-    display: block;
+    grid-column: 1/4;
   }
 
   #email {
-    grid-column: 1/3;
+    grid-column: 1/4;
   }
 
   .text {
-    grid-column: 1/3;
+    grid-column: 1/4;
   }
 
   .pargragh-form {

@@ -298,11 +298,11 @@
             <h4 class="form-title">I'm always interested in hearing about new projects, 
               so if you'd like to chat please get in</h4>
           </div>
-          <form class="form" action="https://formspree.io/f/mgerdpob" method="POST">
-            <input type="text" placeholder="Full name" required maxlength="30" class="name-email" name="name" id="full-name" >         
-            <input type="text" placeholder="First name" required maxlength="30" class="name-email" name="name" id="first-name" > 
-            <input type="text" placeholder="Last name" required maxlength="30" class="name-email" name="name" id="last-name"> 
+          <form class="form" action="https://formspree.io/f/mgerdpob" method="POST" id="form">
+            <input type="text" placeholder="Full name" required maxlength="30" class="name-email" name="namefULL" id="full-name" >         
             <input type="email" placeholder="Email address" required maxlength="30" class="name-email" name="email" id="email">
+            <small id="massage" ></small>
+
             <textarea rows="5" cols="10" required maxlength = "500" class="text"  name="textarea">Enter text here </textarea>
             <input type="submit" value="Get in touch" class="submit">
           </form>
@@ -342,6 +342,7 @@
   </div>
 <script src="js/script.js"></script>
 <script src="js/popup.js"></script>
+<Script src="js/validate.js"></Script>
 
 </body>
 
