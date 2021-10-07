@@ -16,7 +16,8 @@ You don't need to implement any functionality that requires JavaScript, like ope
 
 ## Built With
 
-- Major languages:Html , CSS and Js 
+
+- Major languages:Html , CSS and Java Script
 - Technologies used :GIT and GitHup 
 
 ## To see the Project
